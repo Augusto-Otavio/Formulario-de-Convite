@@ -5,7 +5,9 @@ Uma aplicação de convites digitais para eventos, feita com HTML e CSS.
 Este projeto foi desenvolvido como parte do curso de Desenvolvedor Full Stack da Rocketseat, com o objetivo de criar uma interface moderna, acessível e intuitiva para criação de convites online, utilizando apenas HTML5 e CSS3.
 
 ![image](https://github.com/user-attachments/assets/1f3bcfda-885e-469c-b8bb-fc0ad55d93f8)
-![image](https://github.com/user-attachments/assets/1f3bcfda-885e-469c-b8bb-fc0ad55d93f8)
+![image](https://github.com/user-attachments/assets/ebcea070-8334-487f-ac72-bb8480b8d3f4)
+![image](https://github.com/user-attachments/assets/a264ee07-28af-45a2-9112-440d92aecda5)
+
 
 
 <sub>🖼️ Interface de criação de convites digitais</sub>

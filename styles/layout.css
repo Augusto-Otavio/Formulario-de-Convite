@@ -1,0 +1,53 @@
+#app {
+  display: grid;
+  grid-template-columns: 32.7% 67.3%;
+  
+  height: 100vh;
+  padding: 1.25rem;
+
+  overflow: hidden;
+}
+
+main {
+  overflow: auto;
+  background-color: var(--shape-background);
+  padding-inline: 8.125rem; 
+  padding-bottom: 5rem;
+
+  border-radius: 0.75rem;
+}
+
+
+form {
+  width: 35rem;
+}
+
+aside {
+  background-image: url(/assets/images/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25rem;
+  height: 45.5rem;
+
+  border-radius: 0.75rem;
+  
+  & > div {
+    padding: 2rem;
+  }
+
+  header {
+    & img {
+      width: 2.865625rem;
+      height: 3rem;
+    }
+    h2 {
+      font: var(--text-logo);
+      color: var(--pink);
+    }
+
+    p {
+      font: var(--body-md);
+      color: var(--text-heading);
+    }
+  }
+}

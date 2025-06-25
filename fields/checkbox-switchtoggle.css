@@ -1,0 +1,77 @@
+.switchtoggle-wrapper {
+  .switch-grid {
+    display: grid;
+    margin-top: 1.75rem;
+    gap: 1rem;
+    grid-template-columns: 11rem 23rem;
+
+    .switch-item {
+      display: flex;
+      align-items: center;
+
+      .button {
+        position: relative;
+        background-color: var(--input-base);
+        width: 4rem;
+        height: 2rem;
+        border-radius: 12.5rem;
+        border: 1px solid var(--input-stroke);
+        display: block;
+        cursor: pointer;
+
+        &::before {
+          content: '';
+          position: absolute;
+          width: 1.5rem;
+          height: 1.5rem;
+          inset: 0;
+          margin: 0.1875rem;
+          border-radius: 50%;
+          background-color: var(--input-stroke);
+          transition: transform 0.3s ease;
+        }
+      }
+
+      input:checked + .button::before {
+        transform: translateX(2rem);
+        background-color: var(--text-heading);
+      }
+
+      input:checked + .button {
+        background-color: var(--brand-light);
+      }
+
+      .mode-on, .mode-off {
+        font: var(--body-sm);
+        color: var(--text-heading);
+        padding-block: 0.90625rem;
+        margin-left: 0.75rem;
+        transition: opacity 0.3s ease;
+      }
+
+      & .mode-off {
+        display: inline-block;
+      }
+
+      & .mode-on {
+        display: none;
+      }
+
+      & input:checked + .button + .mode-off {
+        display: none;
+      }
+
+      & input:checked + .button + .mode-off + .mode-on {
+        display: inline-block;
+      }
+
+    }
+  }
+
+  input[type="checkbox"],
+  input[type="checkbox"]:focus,
+  input[type="checkbox"]:hover,
+  .label-radio {
+    all: unset;
+  }
+}

@@ -1,0 +1,36 @@
+.contact-details {
+  margin-top: 3rem;
+}
+
+.contact-name-wrapper {
+
+  input {
+    &:invalid {
+      border: 1px solid var(--danger);
+    }
+    
+    &:not(:focus):valid + .error {
+      display: none;
+    }
+  }
+
+    .error {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+
+      span {
+        font: var(--body-xs);
+        color: var(--danger);
+      }
+    }
+}
+
+.information-contact {
+  
+  .grid-contact {
+    display: grid;
+    grid-template-columns: 17rem 17rem;
+  }
+}
+

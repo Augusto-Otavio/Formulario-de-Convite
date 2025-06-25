@@ -1,0 +1,36 @@
+.Personalization {
+  margin-top: 3rem;
+
+.colors-wrapper {
+
+  > div {
+    
+    & input[type="radio"] {
+      box-sizing: border-box;
+      appearance: none;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      border: 6px solid var(--shape-button);
+
+
+    &:hover {
+        border: 6px solid var(--shape-hover);
+      }
+    
+    }
+
+    & input[type="radio"]:focus {
+        outline: 2px solid var(--brand-light);
+    }
+
+    & input[type="radio"]:checked {
+      outline: 2px solid var(--brand-light);
+    }
+
+    
+  }
+
+}
+
+}

@@ -1,4 +1,4 @@
-🎉 Festinvite
+<h1>🎉 Festinvite</h1>
 
 Uma aplicação de convites digitais para eventos, feita com HTML e CSS.
 

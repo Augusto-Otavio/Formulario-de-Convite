@@ -3,77 +3,78 @@ Uma aplicação de convites digitais para eventos, feita com HTML e CSS.
 
 Este projeto foi desenvolvido como parte do curso de Desenvolvedor Full Stack da Rocketseat, com o objetivo de criar uma interface moderna, acessível e intuitiva para criação de convites online, utilizando apenas HTML5 e CSS3.
 
-📸 Preview do Projeto
+![image](https://github.com/user-attachments/assets/1f3bcfda-885e-469c-b8bb-fc0ad55d93f8)
+![image](https://github.com/user-attachments/assets/1f3bcfda-885e-469c-b8bb-fc0ad55d93f8)
 
-<sub>Imagem ilustrativa da interface de criação de convites</sub>
+
+<sub>🖼️ Interface de criação de convites digitais</sub>
 
 🚀 Funcionalidades
-Cadastro de evento:
+🗓️ Cadastro do Evento
+📝 Título do evento
 
-Título do evento
+📅 Data e hora de início e término
 
-Data e hora de início e término
+🧭 Tipo do evento: Presencial ou Online
 
-Tipo de evento (Presencial ou Online)
+📍 Endereço físico ou link do evento
 
-Endereço ou link de acesso
+🖊️ Descrição personalizada do evento
 
-Descrição personalizada
+🎨 Personalização Visual
+🎨 Escolha da cor principal do convite
 
-Personalização:
+💌 Seleção de temas (Aniversário, Formatura, Infantil, Casamento etc.)
 
-Escolha da cor principal do convite
+🌗 Alternância entre modo escuro e claro
 
-Seleção do tema (Aniversário, Infantil, Formatura, Casamento etc.)
+🖼️ Upload de imagem de capa
 
-Estilo escuro ou claro
+📇 Informações de Contato
+🙋 Nome completo (campo obrigatório)
 
-Upload de imagem de capa
+📧 E-mail e 📱 telefone
 
-Dados para contato:
+🔔 Opção para receber atualizações por e-mail ou SMS
 
-Nome completo (campo obrigatório)
-
-E-mail e telefone
-
-Opção para receber atualizações por e-mail ou SMS
-
-Confirmação dos Termos e Condições
+✅ Confirmação dos Termos e Condições
 
 🛠️ Tecnologias Utilizadas
-HTML5
-Estrutura semântica do formulário, campos de entrada, seções e acessibilidade.
+🔤 HTML5
 
-CSS3
-Estilização completa da interface, incluindo:
+Estrutura semântica dos formulários
 
-Layout responsivo
+Organização em seções acessíveis
+
+Uso correto de label, fieldset e input
+
+🎨 CSS3
+
+Estilização visual moderna com variáveis e pseudoclasses
+
+Layouts com grid e flexbox
 
 Paleta de cores personalizável
 
-Estilo dark/light
+Estilo dark/light com alternância visual
 
-Destaque visual para campos obrigatórios
+Validação visual de campos obrigatórios
+
+⚠️ Este projeto ainda não é responsivo.
 
 📚 Aprendizados
-Durante o desenvolvimento do Festinvite, pude praticar e reforçar:
+Durante o desenvolvimento do Festinvite, pude:
 
-Organização e estruturação de um projeto HTML/CSS do zero
+✅ Trabalhar com diversos tipos de <input>:
+text, date, time, radio, file, checkbox
 
-Uso de form e diversos tipos de <input>:
+Estruturação de formulários com textarea e campos obrigatórios
 
-input[type="text"] para nome do evento, local, nome do organizador
+🎨 Explorar CSS com boas práticas:
+Criação de componentes visuais modernos
 
-input[type="date"] e input[type="time"] para marcar início e término do evento
+Validação de campos via pseudoclasses
 
-input[type="radio"] para seleção do tipo de evento (Presencial ou Online)
+Estilização clara para formulários e feedbacks de erro
 
-input[type="file"] para upload de imagem de capa
-
-input[type="checkbox"] para aceitar termos e receber notificações
-
-textarea para descrição detalhada do eventoe
-
-Criação de componentes visuais modernos com puro CSS
-
-Estilização de elementos interativos (botões, switches, cores)
+Separação lógica das seções para melhor legibilidade

@@ -8,9 +8,7 @@ Este projeto foi desenvolvido como parte do curso de Desenvolvedor Full Stack da
 ![image](https://github.com/user-attachments/assets/ebcea070-8334-487f-ac72-bb8480b8d3f4)
 ![image](https://github.com/user-attachments/assets/a264ee07-28af-45a2-9112-440d92aecda5)
 
-
-
-<sub>🖼️ Interface de criação de convites digitais</sub>
+🖼️ Interface de criação de convites digitais
 
 🚀 Funcionalidades
 🗓️ Cadastro do Evento

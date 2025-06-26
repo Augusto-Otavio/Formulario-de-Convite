@@ -97,6 +97,4 @@
 
 <p><strong>Otavio Augusto Barboza Santana</strong></p>
 <p>Desenvolvedor em formação na Rocketseat 🚀</p>
-<p>📍 Marília, SP – Brasil</p>
-<p>📫 SeuEmail@email.com</p>
 <p>🔗 <a href="https://www.linkedin.com/in/otavio-augusto-87655a2b8/">LinkedIn</a> • <a href="https://github.com/Augusto-Otavio">GitHub</a></p>

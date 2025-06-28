@@ -18,6 +18,7 @@
       & label {
           display: inline-block;
           margin-block: 0.25rem;
+          color: var(--text-heading);
         }
       
       & img {
